@@ -459,7 +459,7 @@ void constructdecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-    <CONSTRUCTOR> methodbody(g)
+   <CONSTRUCTOR> methodbody(g)
 }
 catch (ParseException e)
 {

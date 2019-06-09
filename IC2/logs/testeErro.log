@@ -1,0 +1,11 @@
+X++ Compiler - Version 1.0 - 2004
+Reading from file testes/testeErro.x . . .
+Encountered " "private" "private "" at line 5, column 5.
+Was expecting one of:
+    "constructor" ...
+    "public" ...
+    
+EOF found prematurely.
+0 Lexical Errors found
+1 Syntactic Errors found
+
