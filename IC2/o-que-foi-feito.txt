@@ -1,0 +1,21 @@
+classbody foi reformulado para não depender da ordem, 
+podendo assim inicializar uma variável fora de qualquer método
+
+try {
+   <LBRACE>
+      [LOOKAHEAD(3)classlist(f5)]
+      (
+         LOOKAHEAD(4) vardecl(f2) <SEMICOLON>   |
+         constructdecl(f4)                      |
+         LOOKAHEAD(4) methoddecl(f3)
+      )*
+   <RBRACE>
+}
+
+----------------------------------------------------------
+
+vardecl, methoddecl, paramlist tiveram os tipos BYTE, SHORT, LONG e FLOAT adicionados
+
+vardecl, methoddecl e classdecl tiveram os qualificadores de identificadores PUBLIC, PRIVATE e PROTECTED adicionados
+
+expression teve os operadores lógicos AND, OR, XOR e NOT adicionados

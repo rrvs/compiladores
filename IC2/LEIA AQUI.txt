@@ -1,0 +1,5 @@
+Comando para executar DEBUG (Primeiro erro PARA)
+java parser.langX -debug_AS exemplos/teste1.x
+
+Comando onde compilador tenta EXECUTAR MESMO COM ERROS, (Tenta exibir todos erros de uma vez)
+java parser.langX -debug_recovery exemplos/teste1.x
