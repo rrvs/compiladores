@@ -219,7 +219,7 @@ TOKEN :
 | < SUPER: "super" >
 }
 
-/* Operadores Lógicos */
+/* Operadores Lï¿½gicos */
 
 TOKEN :
 {
@@ -229,7 +229,7 @@ TOKEN :
 | < NOT: "!" >
 }
 
-/* Variáveis e literais */
+/* Variï¿½veis e literais */
 
 TOKEN : 
 {
@@ -269,12 +269,12 @@ TOKEN :
 |
   < null_constant: "null" > // constante null
 |
- < float_constant: ( // números flutuantes
+ < float_constant: ( // nï¿½meros flutuantes
 	
             (<int_constant> "." <int_constant>)           
 ) > 
 |
- < long_constant: ( // números flutuantes
+ < long_constant: ( // nï¿½meros flutuantes
 	
             (<int_constant> "L")    
 ) > 
@@ -459,7 +459,7 @@ void constructdecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-   <CONSTRUCTOR> methodbody(g)
+  [(<PUBLIC> | <PRIVATE> | <PROTECTED>)] <CONSTRUCTOR> methodbody(g)
 }
 catch (ParseException e)
 {
@@ -472,7 +472,7 @@ void methoddecl(RecoverySet g) throws ParseEOFException :
 }
 {
 try {
-   [<PUBLIC> | <PRIVATE> | <PROTECTED>] [<FINAL>] (<BYTE> | <SHORT> |< LONG> | <FLOAT> | <INT> |  <STRING> | <IDENT> ) (<LBRACKET> <RBRACKET>)*
+   [(<PUBLIC> | <PRIVATE> | <PROTECTED>)] [<FINAL>] (<BYTE> | <SHORT> |< LONG> | <FLOAT> | <INT> |  <STRING> | <IDENT> ) (<LBRACKET> <RBRACKET>)*
    <IDENT> methodbody(g)
 }
 catch (ParseException e)
