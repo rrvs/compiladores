@@ -1,2 +1,2 @@
 # compiladores
-Trabalho realizado na matéria INE5622 - Introdução a Compiladores no semestre 2019.1.
+Trabalho realizado na matéria INE5622 - Introdução a Compiladores no semestre 2019.1 (UFSC).
