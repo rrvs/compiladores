@@ -1,0 +1,185 @@
+X++ Compiler - Version 1.0 - 2004
+Reading from file ./testes/teste_geracao_arvore.x . . .
+0 Lexical Errors found
+0 Syntactic Errors found
+
+1: ListNode (ClassDeclNode)  ===> 2 null
+2: ClassDeclNode ===> ArquivoDois null 3
+3: ClassBodyNode ===> null null 4 53
+4: ListNode (ConstructDeclNode) ===> 5 33
+5: ConstructDeclNode ===> 6
+6: MethodBodyNode ===> null 7
+7: BlockNode ===> 8
+8: ListNode (StatementNode) ===> 9 12
+9: AtribNode ===> 10 11
+10: VarNode ===> arquivoUm 
+11: NewObjectNode ===> ArquivoUm null
+12: ListNode (StatementNode) ===> 13 17
+13: AtribNode ===> 14 15
+14: VarNode ===> bola 
+15: DotNode ===> 16 quantidadeB
+16: VarNode ===> arquivoUm 
+17: ListNode (StatementNode) ===> 18 21
+18: AtribNode ===> 19 20
+19: VarNode ===> dedo 
+20: StringConstNode ===> "Istoeumteste"
+21: ListNode (StatementNode) ===> 22 25
+22: AtribNode ===> 23 24
+23: VarNode ===> teste_boolean 
+24: BooleanConstNode ===> false
+25: ListNode (StatementNode) ===> 26 29
+26: AtribNode ===> 27 28
+27: VarNode ===> teste_char 
+28: CharConstNode ===> a
+29: ListNode (StatementNode) ===> 30 null
+30: AtribNode ===> 31 32
+31: VarNode ===> teste_float 
+32: FloatConstNode ===> 100.5
+33: ListNode (ConstructDeclNode) ===> 34 null
+34: ConstructDeclNode ===> 35
+35: MethodBodyNode ===> null 36
+36: BlockNode ===> 37
+37: ListNode (StatementNode) ===> 38 41
+38: AtribNode ===> 39 40
+39: VarNode ===> ano 
+40: FloatConstNode ===> 1.900
+41: ListNode (StatementNode) ===> 42 45
+42: AtribNode ===> 43 44
+43: VarNode ===> mes 
+44: CharConstNode ===> a
+45: ListNode (StatementNode) ===> 46 49
+46: AtribNode ===> 47 48
+47: VarNode ===> dia 
+48: IntConstNode ===> 1
+49: ListNode (StatementNode) ===> 50 null
+50: AtribNode ===> 51 52
+51: VarNode ===> semana 
+52: BooleanConstNode ===> true
+53: ListNode (MethodDeclNode) ===> 54 112
+54: MethodDeclNode ===> int compara 55
+55: MethodBodyNode ===> 56 60
+56: ListNode (VarDeclNode) ===> 57 null
+57: VarDeclNode ===> data 58
+58: ListNode (VarNode) ===> 59 null
+59: VarNode ===> xis 
+60: BlockNode ===> 61
+61: ListNode (StatementNode) ===> 62 69
+62: IfNode ===> 63 67 null
+63: RelationalNode ===> 64 < 65
+64: VarNode ===> ano 
+65: DotNode ===> 66 ano
+66: VarNode ===> xis 
+67: ReturnNode ===> 68
+68: IntConstNode ===> 1
+69: ListNode (StatementNode) ===> 70 77
+70: IfNode ===> 71 75 null
+71: RelationalNode ===> 72 > 73
+72: VarNode ===> ano 
+73: DotNode ===> 74 ano
+74: VarNode ===> xis 
+75: ReturnNode ===> 76
+76: IntConstNode ===> 2
+77: ListNode (StatementNode) ===> 78 85
+78: IfNode ===> 79 83 null
+79: RelationalNode ===> 80 < 81
+80: VarNode ===> mes 
+81: DotNode ===> 82 mes
+82: VarNode ===> xis 
+83: ReturnNode ===> 84
+84: IntConstNode ===> 3
+85: ListNode (StatementNode) ===> 86 93
+86: IfNode ===> 87 91 null
+87: RelationalNode ===> 88 > 89
+88: VarNode ===> mes 
+89: DotNode ===> 90 mes
+90: VarNode ===> xis 
+91: ReturnNode ===> 92
+92: IntConstNode ===> 4
+93: ListNode (StatementNode) ===> 94 101
+94: IfNode ===> 95 99 null
+95: RelationalNode ===> 96 < 97
+96: VarNode ===> dia 
+97: DotNode ===> 98 dia
+98: VarNode ===> xis 
+99: ReturnNode ===> 100
+100: IntConstNode ===> 5
+101: ListNode (StatementNode) ===> 102 109
+102: IfNode ===> 103 107 null
+103: RelationalNode ===> 104 > 105
+104: VarNode ===> dia 
+105: DotNode ===> 106 dia
+106: VarNode ===> xis 
+107: ReturnNode ===> 108
+108: IntConstNode ===> 6
+109: ListNode (StatementNode) ===> 110 null
+110: ReturnNode ===> 111
+111: IntConstNode ===> 0
+112: ListNode (MethodDeclNode) ===> 113 null
+113: MethodDeclNode ===> int treeprint 114
+114: MethodBodyNode ===> 115 119
+115: ListNode (VarDeclNode) ===> 116 null
+116: VarDeclNode ===> int 117
+117: ListNode (VarNode) ===> 118 null
+118: VarNode ===> teste 
+119: BlockNode ===> 120
+120: ListNode (StatementNode) ===> 121 124
+121: VarDeclNode ===> int 122
+122: ListNode (VarNode) ===> 123 null
+123: VarNode ===> teste 
+124: ListNode (StatementNode) ===> 125 137
+125: IfNode ===> 126 129 null
+126: RelationalNode ===> 127 != 128
+127: VarNode ===> left 
+128: NullConstNode ===> null
+129: AtribNode ===> 130 131
+130: VarNode ===> teste 
+131: CallNode ===> 132 treeprint 133
+132: VarNode ===> left 
+133: ListNode (ExpreNode) ===> 134 null
+134: AddNode ===> 135 + 136
+135: CharConstNode ===> x
+136: IntConstNode ===> 4
+137: ListNode (StatementNode) ===> 138 152
+138: ForNode ===> 139 142 145 150
+139: AtribNode ===> 140 141
+140: VarNode ===> teste 
+141: IntConstNode ===> 0
+142: RelationalNode ===> 143 < 144
+143: VarNode ===> teste 
+144: CharConstNode ===> x
+145: AtribNode ===> 146 147
+146: VarNode ===> teste 
+147: AddNode ===> 148 + 149
+148: VarNode ===> teste 
+149: IntConstNode ===> 1
+150: PrintNode ===> 151
+151: StringConstNode ===> " "
+152: ListNode (StatementNode) ===> 153 168
+153: PrintNode ===> 154
+154: AddNode ===> 155 + 167
+155: AddNode ===> 156 + 165
+156: AddNode ===> 157 + 164
+157: AddNode ===> 158 + 162
+158: AddNode ===> 159 + 161
+159: DotNode ===> 160 dia
+160: VarNode ===> key 
+161: StringConstNode ===> "/"
+162: DotNode ===> 163 mes
+163: VarNode ===> key 
+164: StringConstNode ===> "/"
+165: DotNode ===> 166 ano
+166: VarNode ===> key 
+167: StringConstNode ===> "\n"
+168: ListNode (StatementNode) ===> 169 null
+169: IfNode ===> 170 173 null
+170: RelationalNode ===> 171 != 172
+171: VarNode ===> right 
+172: NullConstNode ===> null
+173: AtribNode ===> 174 175
+174: VarNode ===> teste 
+175: CallNode ===> 176 treeprint 177
+176: VarNode ===> right 
+177: ListNode (ExpreNode) ===> 178 null
+178: AddNode ===> 179 + 180
+179: CharConstNode ===> x
+180: IntConstNode ===> 4
